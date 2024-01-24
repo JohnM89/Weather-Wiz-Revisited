@@ -1,6 +1,6 @@
 # Weather Dashboard Project
 
-[Screenshot](./Screenshot%202023-12-11%20at%2016-39-26%20Weather%20Dashboard.png)
+[Screenshot](./public/Screenshot%202023-12-11%20at%2016-39-26%20Weather%20Dashboard.png)
 
 ## Overview
 The Weather Dashboard is a dynamic web application that provides real-time weather information for multiple cities. Designed to help travelers plan their trips efficiently, it utilizes the OpenWeather API to display both current and forecasted weather conditions.

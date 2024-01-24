@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVkhiwwCQdlUB-X25pZEN83JDmkNg3XaM&libraries=places&callback=initAutocomplete" async defer></script>
+     <script src="./public/script2.js"></script>
+    <link rel="stylesheet" href="./public/style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Wiz</h1>
+        <div><video autoplay muted loop id="backgroundVideo">
+        <source src="./public/giphy-backdrop (3).mp4" type="video/mp4">
+    </video></div>
+
+    </header>
+    <main>
+        <section id="weather-display">
+            <div id="current-weather">
+                <h2>City Weather Here</h2>
+                <div id="weather-details"></div>
+                <div id="weather-gif"></div>
+                <div id="weather-gif-2"></div>
+                <aside id="extra-features">
+        </aside>
+            </div>
+            <section id="search-section">
+            <input type="text" id="city-search" placeholder="Enter a city name" aria-label="City search bar"/>
+    
+    
+            <div id="search-list"></div>
+        </section>
+            <div id="five-day-forecast">
+                <h2>5-Day Forecast</h2>
+                <div id="forecast-container"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+           <div id="previous-searches">
+    <div class="content-wrapper">
+        <h2>Previous Searches</h2>
+        <div id="search-history"></div>
+    </div>
+</div>
+
+        </section>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./public/script2.js"></script>
+</body>
+</html>
+
+<!-- API KEYS
+blXxFpwLERXSIKJhGmvWsJxWNe5McfrC
+AIzaSyDVkhiwwCQdlUB-X25pZEN83JDmkNg3XaM
+gTzihuRee3k7gycreZldHk2Z07xXstSR -->

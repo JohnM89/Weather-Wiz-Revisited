@@ -53,4 +53,4 @@ The Weather Dashboard is a dynamic web application that provides real-time weath
 - Google Api
 - ~~LiveCam Api~~ (depreciated)
 
-[Live Link!](https://johnm89.github.io/WeatherWiz/)
+[Live Link!](https://johnm89.github.io/Weather-Wiz-Revisited/)
